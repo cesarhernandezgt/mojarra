@@ -150,11 +150,11 @@
     </condition>
     <echo>maven.repo.local=${maven.repo.local}</echo>
     <artifact:localRepository id="local.repository" path="${maven.repo.local}"/>
-    
-    <artifact:remoteRepository id="jboss.repo" url="http://repository.jboss.com/maven2/"/>
-    <artifact:remoteRepository id="j.n.repo" url="http://download.java.net/maven/2/"/>
-    <artifact:remoteRepository id="gf.repo" url="http://download.java.net/maven/glassfish/"/>
-    <artifact:remoteRepository id="ibiblio.repo" url="http://mirrors.ibiblio.org/pub/mirrors/maven2/"/>
+
+    <artifact:remoteRepository id="jboss.repo" url="https://repository.jboss.com/maven2/"/>
+    <artifact:remoteRepository id="j.n.repo" url="https://download.java.net/maven/2/"/>
+    <artifact:remoteRepository id="gf.repo" url="https://download.java.net/maven/glassfish/"/>
+    <artifact:remoteRepository id="ibiblio.repo" url="https://mirrors.ibiblio.org/pub/mirrors/maven2/"/>
 
     <artifact:dependencies filesetId="compile.filepath" pathId="compile.path">
         <dependency groupId="org.codehaus.groovy" artifactId="groovy-all" version="1.6.4" scope="provided"/>

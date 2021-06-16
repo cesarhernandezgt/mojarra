@@ -161,7 +161,7 @@
 
     <artifact:localRepository id="local.repository" path="${maven.repo.local}"/>
     
-    <artifact:remoteRepository id="j.n.repo" url="https://maven.java.net/content/repositories/releases/"/>
+    <artifact:remoteRepository id="j.n.repo" url="https://repo1.maven.org/maven2/"/>
     <artifact:remoteRepository id="j.n.repo.snapshot" url="https://maven.java.net/content/repositories/snapshots/"/>
     <artifact:remoteRepository id="ibiblio.repo" url="http://mirrors.ibiblio.org/pub/mirrors/maven2/"/>
 

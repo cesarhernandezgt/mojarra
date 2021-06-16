@@ -15,7 +15,6 @@ target/
 /jsf-ri/build/
 /jsf-tools/build/
 /jsf-tools/target/
-/build.properties
 .settings/
 test/**/.classpath
 test/**/.project

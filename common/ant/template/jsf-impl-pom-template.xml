@@ -110,16 +110,17 @@
         </developer>
     </developers>
     <distributionManagement>
-      <snapshotRepository>
-        <id>jvnet-nexus-snapshots</id>
-        <name>Java.net Nexus Snapshots Repository</name>
-        <url>https://maven.java.net/content/repositories/snapshots/</url>
-      </snapshotRepository>
-      <repository>
-        <id>jvnet-nexus-staging</id>
-        <name>Java.net Nexus Staging Repository</name>
-        <url>https://maven.java.net/service/local/staging/deploy/maven2/</url>
-      </repository>
+        <repository>
+            <id>tomitribe.releases.https</id>
+            <name>Tomitribe Release Distribution Repository</name>
+            <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>tomitribe.snapshots.https</id>
+            <name>Tomitribe Development Snapshot Repository</name>
+            <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
+        </snapshotRepository>
     </distributionManagement>
     <build>
         <defaultGoal>install</defaultGoal>
